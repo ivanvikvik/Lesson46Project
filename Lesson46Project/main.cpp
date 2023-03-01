@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 
@@ -7,11 +7,11 @@ void rand_init(int* vector, int size, int bound);
 int max(int* vector, int size);
 int min(int* vector, int size);
 
-// стартовая точка в приложение
+// СЃС‚Р°СЂС‚РѕРІР°СЏ С‚РѕС‡РєР° РІ РїСЂРёР»РѕР¶РµРЅРёРµ
 int main() {
 	int size;
 
-	cout << "Введите размерность вектора: ";
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ РІРµРєС‚РѕСЂР°: ";
 	cin >> size;
 
 	int* vector = new int[size];
