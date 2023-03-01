@@ -1,3 +1,5 @@
+#include "logic.h"
+
 int max(int* vector, int size) {
 	int value = vector[0];
 

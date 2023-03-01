@@ -1,7 +1,6 @@
-#include <iostream>
 #include <string>
-
-using namespace std;
+#include "main.h"
+#include "util.h"
 
 string convert(int* vector, int size) {
 	string msg = "";

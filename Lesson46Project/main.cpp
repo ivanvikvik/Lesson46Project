@@ -1,11 +1,6 @@
-﻿#include <iostream>
-
-using namespace std;
-
-string convert(int* vector, int size);
-void rand_init(int* vector, int size, int bound);
-int max(int* vector, int size);
-int min(int* vector, int size);
+﻿#include "main.h"
+#include "util.h"
+#include "logic.h"
 
 
 int main() {
