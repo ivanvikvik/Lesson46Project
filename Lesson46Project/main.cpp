@@ -7,16 +7,20 @@ void rand_init(int* vector, int size, int bound);
 int max(int* vector, int size);
 int min(int* vector, int size);
 
-// стартовая точка в приложение
+
 int main() {
 	int size;
 
-	cout << "Введите размерность вектора: ";
+	cout << "Input size of vector: ";
 	cin >> size;
 
 	int* vector = new int[size];
 
 	rand_init(vector, size, 100);
+	cout << "Vector: " << convert(vector, size) << endl;;
+
+	cout << "Vecotr max value: " << max(vector, size) << endl;
+	cout << "Vecotr min value: " << min(vector, size) << endl;
 
 	delete[] vector;
 
